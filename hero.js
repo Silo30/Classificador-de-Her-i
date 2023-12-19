@@ -1,4 +1,10 @@
-let hero = ["Dimitri", 1000]
+let hero = ["Dimitri", 300]
 let rank
 
-console.log(hero[1])
+if(hero[1] <= 1000){
+    rank = "ferro"
+} else {
+    rank = "prata"
+}
+
+console.log(rank)
