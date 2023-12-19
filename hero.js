@@ -1,4 +1,4 @@
-let hero = ["Dimitri", 100100]
+let hero = ["Dimitri", 90000]
 let rank
 
 if(hero[1] <= 1000){
